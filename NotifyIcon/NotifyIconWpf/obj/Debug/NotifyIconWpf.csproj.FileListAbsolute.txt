@@ -1,0 +1,5 @@
+C:\code\HelloWorld\NotifyIcon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\code\HelloWorld\NotifyIcon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\code\HelloWorld\NotifyIcon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csprojResolveAssemblyReference.cache
+C:\code\HelloWorld\NotifyIcon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\code\HelloWorld\NotifyIcon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb

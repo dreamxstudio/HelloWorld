@@ -1,0 +1,27 @@
+﻿<Window x:Class="HelloWorld.LabelView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HelloWorld"
+             mc:Ignorable="d" 
+             d:DesignHeight="1300" d:DesignWidth="1300" Width="1300" Height="1300">
+    <Grid x:Name="maingrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="stk_top" Orientation="Horizontal" Margin="15,10,10,0">
+            <!--<Image x:Name="img_icon" Grid.Row="0" Width="50" Height="50" Visibility="Collapsed" Stretch="UniformToFill" VerticalAlignment="Top"></Image>-->
+            <!--<StackPanel>--> 
+                <TextBlock x:Name="text_title"
+                           MouseLeftButtonUp="text_title_MouseLeftButtonUp"
+                           MouseEnter="text_title_MouseEnter" MouseLeave="text_title_MouseLeave"
+                           FontSize="16"  Text="{Binding Title}" FontFamily="Microsoft Yahei" FontWeight="Bold"></TextBlock>
+            <!--</StackPanel>--> 
+        </StackPanel>
+        <StackPanel  Margin="15,0,10,10" x:Name="stk_content" Orientation="Vertical" Grid.Row="1">
+                <TextBlock x:Name="text_desc" Text="{Binding Desc}"  FontSize="13"  FontFamily="Microsoft Yahei" ></TextBlock> 
+        </StackPanel>
+    </Grid>
+</Window>
